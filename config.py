@@ -10,9 +10,9 @@ from logging.handlers import RotatingFileHandler
 # =============================================================================
 
 # Telegram API credentials from https://my.telegram.org
-API_ID = int(os.environ.get("API_ID", ""))
+API_ID = int(os.environ.get("API_ID", "36165352"))
 APP_ID = API_ID # Alias for backward compatibility
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "f0e344e4b1a0ad1cf0114c407498eb22")
 #@cantarellabots
 # Main controller bot token from @BotFather
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
@@ -22,7 +22,7 @@ TG_BOT_TOKEN = BOT_TOKEN # Alias for backward compatibility
 OWNER_ID = int(os.environ.get("OWNER_ID", "5756495153"))
 
 # MongoDB connection URI
-MONGO_URI = os.environ.get("MONGO_URI", "")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://xstreampro_bots:Aditya2007@cluster0.qvmfyql.mongodb.net/?appName=Cluster0")
 MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "cantarellabots")
 DB_URI = MONGO_URI    # Alias for old bot.py
 DB_NAME = MONGO_DB_NAME # Alias for old bot.py
