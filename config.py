@@ -15,11 +15,11 @@ APP_ID = API_ID # Alias for backward compatibility
 API_HASH = os.environ.get("API_HASH", "f0e344e4b1a0ad1cf0114c407498eb22")
 #@cantarellabots
 # Main controller bot token from @BotFather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8910536751:AAEwlM2f6-v6tqSj2MVfmdISvlBXgeQ3PS4")
 TG_BOT_TOKEN = BOT_TOKEN # Alias for backward compatibility
 #@cantarellabots
 # Owner's Telegram user ID (numeric)
-OWNER_ID = int(os.environ.get("OWNER_ID", "5756495153"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7054330466"))
 
 # MongoDB connection URI
 MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://xstreampro_bots:Aditya2007@cluster0.qvmfyql.mongodb.net/?appName=Cluster0")
@@ -31,10 +31,10 @@ DB_NAME = MONGO_DB_NAME # Alias for old bot.py
 CHANNEL_ID = 0
 
 # Central log channel for logging bot creations and generated links
-MAIN_LOG_CHANNEL = int(os.environ.get("MAIN_LOG_CHANNEL", ""))
+MAIN_LOG_CHANNEL = int(os.environ.get("-1003909139469", ""))
 
 # Force-subscribe channel for the main bot (username without @)
-FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "cantarellabots") 
+FSUB_CHANNEL = os.environ.get("HindiAnimestuff", "cantarellabots") 
 
 # =============================================================================
 # ENCRYPTION — Used to secure bot tokens in the database
@@ -42,7 +42,7 @@ FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "cantarellabots")
 
 # Fernet encryption key (generate one with: python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())")
 # If not set, a default key will be generated on first run (NOT recommended for production)
-ENCRYPTION_KEY = os.environ.get("ENCRYPTION_KEY", "")
+ENCRYPTION_KEY = os.environ.get("3zQH6G8J3M8vN8l3M4L4j4x2V3k7V0mXg4Q6dJx0c7Q=", "")
 
 # API URL for Permanent Link Feature
 # Point this to your Cloudflare Worker URL
